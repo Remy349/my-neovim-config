@@ -60,7 +60,7 @@ set noshowmode
 set t_Co=256
 
 " => Establecer los temas
-let ayucolor="mirage"
+let ayucolor="dark"
 colorscheme ayu
 
 " => Configuraciones personalizadas del editor
@@ -97,6 +97,9 @@ nnoremap <leader>j :bprevious<CR>
 " Dividir pantalla de manera vertical u horizontal
 nnoremap <leader>z :vsp<CR>
 nnoremap <leader>x :sp<CR>
+
+" => Configuracion para Python
+let g:python3_host_prog = "C:/Users/Santiago/AppData/Local/Programs/Python/Python39/python.EXE"
 
 " => Configuracion para vim-javascript
 let g:javascript_plugin_jsdoc = 1
